@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+.slider-container:hover .slider-img {
+    transform: scale(1.04);
+    transition: transform 0.4s ease-in-out;
+}
