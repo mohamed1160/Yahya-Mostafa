@@ -13,28 +13,29 @@ export default function Footer() {
                 <p className="text-xs sm:text-sm md:text-base lg:text-[1rem]">
                     Copyright <FaRegCopyright className="inline-block" />
                     <span className="font-bold" style={{ textShadow: "0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5)" }}>
-
                         Yahya Mostafa
                     </span>
                     2025. All rights reserved.
                 </p>
                 <ul className="flex flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-5 text-base sm:text-lg md:text-xl lg:text-[22px]">
-                                            <li className="hover:text-gray-400  transition cursor-pointer">
-                                                <a href="https://www.linkedin.com/in/yahya-mostafa-899536372/" target="_blank">
-                                                    <FaLinkedinIn />
-                                                </a>
-                                            </li>
-                                            <li className="hover:text-gray-400  transition cursor-pointer">
-                                                <a href="https://www.behance.net/yahyamostafa8" target="_blank">
-                                                    <FaBehance />
-                                                </a>
-                                            </li>
-                                            <li className="hover:text-gray-400 transition cursor-pointer">
-                                                <a href="https://wa.me/01022047280" target="_blank">
-                                                    <FaWhatsapp />
-                                                </a>
-                                            </li>
-                                        </ul>
+                    <li className="hover:text-gray-400  transition cursor-pointer">
+                        <a href="https://www.linkedin.com/in/yahya-mostafa-899536372/" target="_blank">
+                            <FaLinkedinIn />
+                        </a>
+                    </li>
+                    <li className="hover:text-gray-400  transition cursor-pointer">
+                        <a href="https://www.behance.net/yahyamostafa8" target="_blank">
+                            <FaBehance />
+                        </a>
+                    </li>
+                    <li className="hover:text-gray-400 transition cursor-pointer">
+                        <a
+                            href="https://wa.me/201022047280?text=Hi%2C%20I%20just%20checked%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20services."
+                            target="_blank">
+                            <FaWhatsapp />
+                        </a>
+                    </li>
+                </ul>
             </div>
         </footer>
     );

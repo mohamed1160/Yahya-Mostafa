@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.jpeg";
 
 
 export default function Work() {
@@ -32,6 +33,13 @@ export default function Work() {
             description: "A modern and elegant hotel website designed to deliver a seamless user experience with a focus on booking and hospitality services.",
             image: project3,
             link: "https://www.behance.net/gallery/232786161/Nova-Hotel-Booking-Web",
+        },
+        {
+            id: 4,
+            title: "Rahal | Passenger Mobile App",
+            description: "Rahal is a smart ride & delivery app designed to simplify daily transportation and delivery needs.",
+            image: project4,
+            link: "https://www.behance.net/gallery/234981155/Rahal-Passenger-Mobile-App",
         },
     ]);
 

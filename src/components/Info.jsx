@@ -47,7 +47,10 @@ export default function Info() {
                                 </a>
                             </li>
                             <li className="hover:text-gray-400 transition cursor-pointer">
-                                <a href="https://wa.me/01022047280" target="_blank" aria-label="WhatsApp Contact">
+                                <a
+                                    href="https://wa.me/201022047280?text=Hi%2C%20I%20just%20checked%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20services."
+                                    target="_blank"
+                                    aria-label="WhatsApp Contact">
                                     <FaWhatsapp />
                                 </a>
                             </li>

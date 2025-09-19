@@ -2,7 +2,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Info from './components/Info'
 import Nav from './components/Nav';
-import { animate } from "animejs";
+
 import Work from './components/Work'
 
 export default function App() {

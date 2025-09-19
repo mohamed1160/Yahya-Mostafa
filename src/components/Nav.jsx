@@ -31,14 +31,19 @@ export default function Nav() {
                 </ul>
             </div>
             <div className="hidden sm:block lets-talk-btn">
-                <a href="https://wa.me/01022047280" target="_blank" className="btn btn-regular px-6 sm:px-8 md:px-10 py-3 sm:py-4" style={{ textShadow: "0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5)" }}>
+                <a
+                    href="https://wa.me/201022047280?text=Hi%2C%20I%20just%20checked%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20services.
+"
+                    target="_blank"
+                    className="btn btn-regular px-6 sm:px-8 md:px-10 py-3 sm:py-4"
+                    style={{ textShadow: "0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5)" }}>
                     Let's Talk
                 </a>
             </div>
             <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden text-2xl">
                 <FaBars />
             </button>
-            <div className={`sm:hidden ${isOpen ? 'block' : 'hidden'} bg-[#101010] absolute top-full left-0 w-full p-2`}>
+            <div className={`sm:hidden ${isOpen ? "block" : "hidden"} bg-[#101010] absolute top-full left-0 w-full p-2`}>
                 <ul className="flex flex-col gap-4 text-lg">
                     <li className="hover:text-gray-600 transition cursor-pointer">
                         <Link to="info" smooth={true} duration={500} onClick={() => setIsOpen(false)}>
@@ -57,7 +62,11 @@ export default function Nav() {
                     </li>
                 </ul>
                 <div className="lets-talk-btn mt-4">
-                    <a href="https://wa.me/01022047280" target="_blank" className="btn btn-regular px-6 py-3 block text-center" style={{ textShadow: "0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5)" }}>
+                    <a
+                        href="https://wa.me/01022047280"
+                        target="_blank"
+                        className="btn btn-regular px-6 py-3 block text-center"
+                        style={{ textShadow: "0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5)" }}>
                         Let's Talk
                     </a>
                 </div>
