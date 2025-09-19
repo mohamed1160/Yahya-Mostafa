@@ -22,12 +22,12 @@ export default function Contact() {
                     <p className="flex items-center justify-center gap-2">
                         <MdOutlineEmail
                             className="text-xl sm:text-2xl md:text-3xl lg:text-4xl"
-                            style={{ filter: "drop-shadow(0 0 5px rgba(255,255,255,0.5)) drop-shadow(0 0 10px rgba(255,255,255,0.3))" }}
-                        />{" "}
+                        
+                        />
                         Email Address: <span className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-[1.5rem] px-1 sm:px-2">yahya.mostafa1219@gmail.com</span>
                     </p>
                     <p className="flex items-center justify-center gap-2">
-                        <MdPhone className="text-xl sm:text-2xl md:text-3xl lg:text-4xl" style={{ filter: "drop-shadow(0 0 5px rgba(255,255,255,0.5)) drop-shadow(0 0 10px rgba(255,255,255,0.3))" }} />{" "}
+                        <MdPhone className="text-xl sm:text-2xl md:text-3xl lg:text-4xl" />
                         Phone Number: <span className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-[1.5rem]">+20 10 220 47280</span>
                     </p>
                 </div>

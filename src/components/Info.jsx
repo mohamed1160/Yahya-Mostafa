@@ -19,14 +19,7 @@ export default function Info() {
                 </div>
                 <div className="info-container flex flex-col gap-3 sm:gap-4 lg:gap-5 w-full lg:w-1/2 pt-6 sm:pt-8 lg:pt-15 text-center lg:text-left order-1 lg:order-2">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-3 lg:mb-5">
-                        Welcome to{" "}
-                        <span
-                            style={{
-                                textShadow: "0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5)",
-                            }}>
-                            Yahya's{" "}
-                        </span>
-                        Portfolio
+                        Welcome to Yahya's Portfolio
                     </h2>
                     <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-2 sm:mb-3 lg:mb-5">A UI/UX Designer</h2>
                     <p className="text-xs sm:text-sm md:text-base lg:text-md text-justify lg:text-left text-[#d2dae2ca] leading-relaxed">
