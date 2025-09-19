@@ -15,10 +15,10 @@ export default function Work() {
     const [projects, setProjects] = useState([
         {
             id: 1,
-            title: "ELVO / Shopping Website",
-            description: "ELVO is a modern shopping website that offers a seamless experience with a wide range of products, competitive prices, and reliable delivery.",
-            image: project1,
-            link: "https://www.behance.net/gallery/234557547/ELVO-Shopping-Website",
+            title: "Rahal | Passenger Mobile App",
+            description: "Rahal is a smart ride & delivery app designed to simplify daily transportation and delivery needs.",
+            image: project4,
+            link: "https://www.behance.net/gallery/234981155/Rahal-Passenger-Mobile-App",
         },
         {
             id: 2,
@@ -36,10 +36,10 @@ export default function Work() {
         },
         {
             id: 4,
-            title: "Rahal | Passenger Mobile App",
-            description: "Rahal is a smart ride & delivery app designed to simplify daily transportation and delivery needs.",
-            image: project4,
-            link: "https://www.behance.net/gallery/234981155/Rahal-Passenger-Mobile-App",
+            title: "ELVO / Shopping Website",
+            description: "ELVO is a modern shopping website that offers a seamless experience with a wide range of products, competitive prices, and reliable delivery.",
+            image: project1,
+            link: "https://www.behance.net/gallery/234557547/ELVO-Shopping-Website",
         },
     ]);
 
@@ -68,7 +68,7 @@ export default function Work() {
                                     <img src={project.image} alt="" className="w-full h-full object-contain " />
                                 </figure>
                                 <div className="slider-info flex flex-col gap-2 sm:gap-3 pt-4 sm:pt-8">
-                                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold" style={{ textShadow: "0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5)" }}>
+                                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold" >
                                         {project.title}
                                     </h3>
                                     <p className="text-[#707070] text-justify text-sm sm:text-[0.5rem] md:text-lg">
